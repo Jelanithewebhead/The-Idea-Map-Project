@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Father's finding code</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GroundUp - Marketing Platform for Local Businesses</title>
+  <meta name="description" content="The all-in-one marketing platform designed specifically for local businesses to connect with their neighborhoods." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/favicon.ico" />
 </head>
 <body>
-    <header>
-        <h1>Ideas abode </h1>
-    </header>
-        <main>
-            <nav></nav>
-        </main>
-        <footer></footer>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="/" class="logo">GroundUp</a>
+
+      <nav class="desktop-nav">
+        <a href="#" class="nav-link">Features</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="#" class="nav-link">Resources</a>
+        <a href="#" class="nav-link">About</a>
+      </nav>
+
+      <div class="desktop-buttons">
+        <button class="btn btn-outline">Log In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+
+      <button class="mobile-menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+             viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+      <nav class="mobile-nav">
+        <a href="#" class="nav-link">Features</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="#" class="nav-link">Resources</a>
+        <a href="#" class="nav-link">About</a>
+        <button class="btn btn-outline mobile-btn">Log In</button>
+        <button class="btn btn-primary mobile-btn">Sign Up</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">GroundUp</h1>
+          <h2 class="hero-subtitle">Built for the Block.<br />Grows with You.</h2>
+          <p class="hero-text">
+            The all-in-one marketing platform designed specifically for local businesses to connect with their neighborhoods.
+          </p>
+          <form class="hero-form">
+            <input type="email" placeholder="Enter your email" class="form-input" required />
+            <button type="submit" class="btn btn-primary">Get Started</button>
+          </form>
+        </div>
+        <div class="hero-image">
+          <img src="/images/hero-illustration.png" alt="GroundUp local business illustration" />
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
